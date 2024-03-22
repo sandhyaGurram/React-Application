@@ -1,0 +1,615 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.hit .nav-item .nav-link{
+    background-color: rgb(7, 60, 83);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.hit .nav-link:hover{
+    background-color:rgb(220, 58, 4) ;
+    color: white;
+    
+}
+.hit header{
+    position: fixed;
+    /* top: 0;
+    z-index: 0; */
+    position: relative;
+    overflow: hidden;
+    background-color: darkkhaki;
+}
+.hit header ul li{
+    padding: 10px;
+}
+
+.learn,
+.projects {
+    padding: 20px 100px;
+    background-color: rgb(210, 215, 220);
+}
+
+.learn i,
+.projects i {
+    color: rgb(220, 162, 4);
+}
+
+.learn .card,
+.projects .card {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.learn #course1,
+#course2,
+#course3,
+.projects #projects1,
+#projects2,
+#projects3 {
+    background-color: rgb(2, 75, 97);
+    color: white;
+}
+
+.questions .card i,
+.learn .card i {
+    background-color: rgb(220, 58, 4);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+}
+/* ----------------------------------------------training---------------------- */
+.training {
+    font-size: 100px;
+    text-align: center;
+    color: rgb(220, 58, 4);
+}
+
+.training-modes .card {
+    box-shadow: 2px 2px 5px 5px rgb(226, 224, 224);
+    margin-bottom: 20px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.training-method .card{
+    padding-top: 20px;
+    height: 200px;
+    width: 250px;
+    box-shadow: 2px 2px 5px 2px rgb(196, 195, 195);
+}
+
+
+.training-modes p,
+.aboutUs p {
+    color: rgb(89, 87, 87);
+}
+
+.aboutUs h1 {
+    color: rgb(220, 58, 4);
+}
+
+.aboutUs i {
+    color: rgb(220, 58, 4);
+}
+
+/* ------------------------------------signin----------------- */
+.signin {
+    width: 700px;
+}
+
+.signin button,
+.signin input {
+    width: 400px;
+}
+
+.signin input {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.signin img {
+    width: 100px;
+    height: 20px;
+    margin-bottom: 50px;
+}
+
+.signin ul li {
+    display: inline-block;
+
+}
+
+.line {
+    width: 150px;
+
+    height: 1px;
+    background-color: rgb(214, 209, 209);
+}
+
+.signin .btn {
+    border: 2px solid rgb(72, 21, 72);
+}
+
+.signin .gmail {
+    background-color: rgb(72, 21, 72);
+    color: white;
+}
+
+.signin a {
+    text-decoration: none;
+}
+
+
+.content h3,
+.content p,
+.content i {
+    text-align: start;
+}
+
+.content .card i,
+.projects .card i,
+.questions .card i,
+.learn .card i {
+    background-color: rgb(220, 58, 4);
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+}
+
+.content .collapse {
+    background-color: rgb(2, 75, 97);
+    color: white;
+}
+
+.content .collapse i {
+    color: rgb(220, 162, 4);
+}
+
+.content .demo {
+    background-image: url(assets/demo-reg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/* ------------------------------------------FAQs------------------ */
+.questions {
+    background-color: rgb(236, 240, 243);
+    margin: auto;
+}
+
+.questions h3 {
+    text-align: start;
+}
+
+.questions p {
+    text-align: justify;
+}
+
+.questions #qsn1,
+#qsn2,
+#qsn3,
+#qsn4,
+#qsn5,
+#qsn6,
+#qsn7 {
+    background-color: rgb(2, 75, 97);
+    color: white;
+    text-align: start;
+    text-align: justify;
+}
+
+.questions .job-roles {
+    padding: 50px 50px;
+
+}
+.questions .job-roles p, .questions .job-roles h6{
+    color: rgb(69, 67, 67);
+}
+
+.questions .job-roles i {
+    color: rgb(220, 58, 4);
+}
+
+.questions .card {
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+/* ----------------------------------footer---------------------- */
+footer{
+    background-color: rgb(7, 60, 83);
+    color: white;
+}
+footer h1{
+    font-size: 20px;
+    color: rgb(220, 162, 4);
+    text-align: start;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+footer i{
+    color: rgb(220, 162, 4);
+}
+.bottom{
+
+    background-color: rgb(2, 34, 54);
+    color: white;
+    text-align: end;
+}
+
+/* ----------------------------------table------------- */
+.table thead tr th {
+    color: white;
+    background-color: rgb(4, 98, 113);
+}
+
+/* .table td {
+    text-decoration: none;
+}
+
+.table .nav-link {
+    color: rgb(3, 85, 148);
+}
+
+.table .nav-link:hover {
+    font-weight: 900;
+} */
+
+/* -----------------------------------register---------- */
+.student-form {
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px 1px rgb(206, 207, 207);
+}
+
+.student-form h1 {
+    color: rgb(220, 58, 4);
+}
+
+/* ----------------------------------------course eligiblity------------- */
+
+.eligibility p i {
+    color: green;
+}
+
+.eligibility a {
+    background-color: rgb(220, 162, 4);
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(220, 162, 4);
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.offer {
+    background-color: rgb(220, 58, 4);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.modal-title {
+    font-weight: 900;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+/* ---------------------------------------------animation effects-------------------- */
+.animate-heading {
+    animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
+    animation-duration: 1s;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -.5em;
+        opacity: 0
+    }
+
+    40% {
+        opacity: .6
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+
+@keyframes bounce-top {
+    0% {
+        transform: translateY(-45px);
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    24% {
+        opacity: 1
+    }
+
+    40% {
+        transform: translateY(-24px);
+        animation-timing-function: ease-in
+    }
+
+    65% {
+        transform: translateY(-12px);
+        animation-timing-function: ease-in
+    }
+
+    82% {
+        transform: translateY(-6px);
+        animation-timing-function: ease-in
+    }
+
+    93% {
+        transform: translateY(-4px);
+        animation-timing-function: ease-in
+    }
+
+    25%,
+    55%,
+    75%,
+    87% {
+        transform: translateY(0);
+        animation-timing-function: ease-out
+    }
+
+    100% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+        opacity: 1
+    }
+}
+.animate-courses:nth-child(1){
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    
+    animation-delay: 0.5s;
+}
+.animate-courses:nth-child(2){
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1s;
+}
+.animate-courses:nth-child(3){
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.5s;
+}
+.animate-choose{
+    animation: slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 0.5s;
+}
+.animate-choose2{
+    animation: slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1s;
+}
+.animate-choose3{
+    animation: slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.5s;
+}
+.animate-choose4{
+    animation: slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2s;
+}
+.animate-choose5{
+    animation: slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2.5s;
+}
+.animate-choose6{
+    animation: slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 3s;
+}
+
+.animate-tr1{
+    animation: slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 0.5s;
+}
+.animate-tr2{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1s;
+}
+.animate-tr3{
+    animation: slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.5s;
+}
+.animate-tr4{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2s;
+}
+.animate-tr5{
+    animation: slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2.5s;
+}
+.animate-tr6{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 3s;
+}
+.animate-tr7{
+    animation: slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 3.5s;
+}
+.animate-tr8{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 4s;
+}
+
+@keyframes bounce-left {
+    0% {
+        transform: translateX(-48px);
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    24% {
+        opacity: 1
+    }
+
+    40% {
+        transform: translateX(-26px);
+        animation-timing-function: ease-in
+    }
+
+    65% {
+        transform: translateX(-13px);
+        animation-timing-function: ease-in
+    }
+
+    82% {
+        transform: translateX(-6.5px);
+        animation-timing-function: ease-in
+    }
+
+    93% {
+        transform: translateX(-4px);
+        animation-timing-function: ease-in
+    }
+
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+        transform: translateX(0);
+        animation-timing-function: ease-out
+    }
+
+    100% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+        opacity: 1
+    }
+}
+
+.animate-faq1{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+}
+.animate-faq2{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 0.5s;
+}
+.animate-faq3{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1s;
+}
+.animate-faq4{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.5s;
+}
+.animate-faq5{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2s;
+}
+.animate-faq6{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2.5s;
+}
+.animate-faq7{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 3s;
+}
+.animate-faq8{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 3.5s;
+}
+
+
+.animate-eligible1{
+    animation: slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 0.5s;
+}
+.animate-eligible3{
+    animation: slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1s;
+}
+
+.animate-h1{
+    animation: tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both;
+}
+.animate-course1{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    
+}
+.animate-course2{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 0.2s;
+}
+.animate-course3{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 0.4s;
+}
+.animate-course4{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 0.6s;
+}
+.animate-course5{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 0.8s;
+}
+.animate-course6{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1s;
+}
+.animate-course7{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.2s;
+}
+.animate-course8{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.4s;
+}
+.animate-course9{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.6s;
+}
+.animate-course10{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.8s;
+}
+.animate-course11{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2s;
+}
+.animate-course12{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2.2s;
+}
+.animate-course13{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2.4s;
+}
+.animate-course14{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2.6s;
+}
+.animate-course15{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2.8s;
+}
+.animate-course16{
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 3s;
+}
+
+@keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+@keyframes slide-in-top{0%{transform:translateY(-1000px);opacity:0}100%{transform:translateY(0);opacity:1}}
+@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+@keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0) translateY(0);opacity:1}}
+@keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
+@keyframes scale-in-center{0%{transform:scale(0);opacity:1}100%{transform:scale(1);opacity:1}}

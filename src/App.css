@@ -1,0 +1,390 @@
+
+
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+h1{
+  text-align: center;
+}
+.movies img{
+  width: 100%;
+  height: 70%;
+}
+figure{
+   width: 100%;
+  height: 100%;
+}
+.movies{
+  padding: 10px;
+  margin: 10px;
+  width: 20vw;
+  height: 50vh;
+  float: left;
+  box-shadow: 2px 2px 5px 5px rgb(222, 220, 220);
+}
+
+figcaption{
+  text-align: center;
+}
+
+/* ------------------------------side navbar----------- */
+.sidebar{
+  height: 100%;
+  position: fixed;
+  
+}
+.sidebar h5{
+  padding: 10px;
+  background-color: green;
+  color: white;
+  
+}
+.food-list{
+  list-style: none;
+}
+.food-list li{
+
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* --------------------------------header-top----------------- */
+
+.header-top .navbar-brand{
+  color: rgb(61, 100, 3);
+  font-weight: 800;
+  font-size: 35px;
+  
+}
+.header-top header{
+  position: sticky;
+  top: 0;
+ z-index: 1000;
+  background-color: rgb(241, 237, 237);
+}
+.header-top  ul li .nav-link{
+  font-weight: 700;
+  color: black;
+  
+}
+.header-top  ul li .nav-link:hover{
+  color: green;
+}
+.header-top  ul li{
+  padding-left: 40px;
+}
+/* --------------------------main page ---------------------- */
+.main-page-veg{
+  background-color: rgb(196, 228, 208);
+}
+.main-page-veg img{
+  width: 100%;
+  height: 100%;
+}
+.main-page-veg h4{
+  color: green;
+  font-weight: 800;
+}
+.main-page-veg h1{
+  font-size: 50px;
+}
+.main-page-veg button{
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+/* -------------------------------bg-veg---------- */
+.bg-veg img{
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
+ 
+  background-position: center;
+}
+.flex{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.bg-veg{
+  background-image: url(HIT/assets/bg-veg.jpg);
+  text-align: center;
+
+}
+.bg-color{
+  height: 200px;
+  width: 100%;
+  background-color: rgba(6, 88, 29, 0.628);
+}
+.bg-color p{
+  color: white;
+  font-weight: 700;
+}
+.bg-color h1{
+  font-weight: 800;
+  color: white;
+}
+/* -----------------------------------------------checkout page------------------- */
+
+.check-list img{
+  width: 100px;
+  height: 100px;
+}
+.check-list tbody button{
+  padding: 5px 10px;
+  font-weight: 800;
+  font-size: 30px;
+}
+/* --------------------------------totla-items---------------------------------- */
+.veg-list img{
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+/* -------------------------------dashboard-------------------- */
+
+.dashboard aside button{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 2px solid rgb(4, 98, 113);
+  border-radius: 10px;
+ 
+}
+.dashboard aside button:hover{
+  background-color: rgb(4, 98, 113);
+  color: white;
+}
+.dashboard aside{
+  border-right: 1px solid rgb(198, 196, 196);
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* ------------------------------view courses */
+.viewcourses img{
+  height: 200px;
+}
+.viewcourses .card-body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.viewcourses tr td:first-child{
+  font-weight: 700;
+}
+.viewcourses tr td:last-child{
+  padding-left: 20px;
+}
+.viewcourses button{
+  font-weight: 800;
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  color: green;
+}
+.viewcourses button:hover{
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+}
+.viewcourses .row{
+  border-bottom: 2px solid grey;
+}
+
+
+/* ---------------------------news scroll----------- */
+
+.news-container {
+  overflow: hidden;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; */
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.3);
+}
+
+.news-container .title {
+  position: absolute;
+  background: hsl(0, 75%, 50%);
+ 
+ 
+  align-items: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  z-index: 200;
+}
+
+.news-container ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  animation: scroll 10s infinite linear;
+  
+  
+  
+}
+
+.news-container ul li {
+  white-space: nowrap;
+  padding: 10px 24px;
+  color: #494949;
+  position: relative;
+}
+
+.news-container ul li::after {
+  content:"";
+  width: 1px;
+  height: 100%;
+  background: #b8b8b8;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.news-container ul li:last-child::after {
+  display: flex;
+  
+}
+
+@keyframes scroll {
+  from {
+      transform: translateX(100%);
+  }
+
+  to {
+      transform: translateX(-10%);
+
+  }
+}
+/* ----------------------------------edit batch---------------- */
+.editbatch button,.view-enquiry button{
+  padding: 5px;
+  background-color: transparent;
+  margin-left: 10px;
+  border-radius: 10px;
+
+}
+
+.editbatch button:first-child{
+  border: 2px solid green;
+  color: green;
+  
+}
+.editbatch button:first-child:hover{
+  background-color: green;
+  color: white;
+}
+.editbatch button:last-child,.view-enquiry button{
+  border: 2px solid orangered;
+  color: orangered;
+}
+.editbatch button:last-child:hover,.view-enquiry button:hover{
+  background-color: orangered;
+  color: white;
+}
+
+.table thead tr{
+  background-color: rgb(4, 98, 113);
+  color: white;
+}
+
+/* -------------------------------comp-placement------------- */
+.comp-placement ul li{
+  display: inline-block;
+  padding: 20px;
+}
+.comp-placement img{
+  width: 100px;
+  height: 100px;
+}
+.course-details{
+  border-right: 1px solid rgb(218, 217, 217);
+}
+
+/* -----------------------------------------------------------------new project -----------------------------------------------------------------*/
+
+
+/* -----------------------------------sideview------------------------ */
+.sideview{
+  height: 100%;
+  width: 100%;
+  border-right: 1px solid rgb(219, 216, 216);
+}
+.sideview ul li{
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid green;
+  text-align: center;
+  font-weight: 700;
+}
+.sideview ul li:hover{
+  background-color: green;
+  color: white;
+}
+.allproducts ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+ 
+}
+.allproducts ul li:hover{
+  border-bottom: 1px solid grey;
+}
+.vegitables img{
+  width: 100%;
+  height: 200px;
+
+}
+.vegitables ul button{
+  background-color: transparent;
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 10px 25px;
+  border: 1px solid green;
+  font-weight: 600;
+}
+.viewvegitable table td img{
+  width: 100px;
+  height: 100px;
+}
+.viewvegitable button{
+  padding: 10px;
+  background-color: transparent;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.viewvegitable button:nth-child(1){
+  border: 2px solid green;
+  color: green;
+}
+.viewvegitable button:nth-child(1):hover{
+  background-color: green;
+  color: white;
+}
+.viewvegitable button:nth-child(2){
+  border: 2px solid red;
+  color: red;
+}
+.viewvegitable button:nth-child(2):hover{
+  background-color: red;
+  color: white;
+}
